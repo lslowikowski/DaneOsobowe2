@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="programy.DaneOsobowe">
+  <grid id="27dc6" binding="jpPanelGlowny" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="244"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e7cd0" class="javax.swing.JLabel" binding="jlNazwisko">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Nazwisko:"/>
+        </properties>
+      </component>
+      <component id="1c3d6" class="javax.swing.JTextField" binding="tfImie">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9c94b" class="javax.swing.JTextField" binding="tfNazwisko">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f0e0f" class="javax.swing.JButton" binding="jbZatwierdz">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+        <properties>
+          <background color="-12515067"/>
+          <font name="Blood Shade"/>
+          <foreground color="-10503396"/>
+          <horizontalAlignment value="2"/>
+          <text value="Zatwierdź"/>
+          <toolTipText value="Naciśnij mnie"/>
+        </properties>
+      </component>
+      <component id="f903a" class="javax.swing.JLabel" binding="jlImie">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <text value="Imię:"/>
+        </properties>
+      </component>
+      <hspacer id="d36cc">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="d04d1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="becd9">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="bab59" class="javax.swing.JLabel" binding="jlKomunikat">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Komunikat"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
